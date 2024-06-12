@@ -34,9 +34,9 @@ jobs:
               distribution: "zulu"
               java-version: 8
           
-          - name: Publish to Exchange
-            run: |
-              mvn deploy 
+          #- name: Publish to Exchange
+          #  run: |
+          #    mvn deploy 
           - name: Deploy to CloudHub 2.0
             run: |
               mvn deploy       
